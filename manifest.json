@@ -1,7 +1,7 @@
 {
-  "name": "10分タイマー",
+  "name": "3分タイマー",
   "short_name": "タイマー",
-  "description": "起動と同時に10分カウントダウンを開始するタイマー",
+  "description": "起動と同時に3分カウントダウンを開始するタイマー",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#667eea",

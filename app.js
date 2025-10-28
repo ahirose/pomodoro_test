@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator) {
 }
 
 // タイマーの初期設定
-const TIMER_DURATION = 10 * 60; // 10分 = 600秒
+const TIMER_DURATION = 3 * 60; // 3分 = 180秒
 let timeRemaining = TIMER_DURATION;
 let timerInterval = null;
 
@@ -53,7 +53,7 @@ function countdown() {
         // 通知を表示
         if ('Notification' in window && Notification.permission === 'granted') {
             new Notification('タイマー終了', {
-                body: '10分が経過しました！',
+                body: '3分が経過しました！',
                 icon: 'icon-192.png'
             });
         }
